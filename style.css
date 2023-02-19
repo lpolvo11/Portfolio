@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'SF pro display';
+}
+body, html{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(8, 7, 15);
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left-nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 25px;
+}
+.left-nav a:hover{
+    color: chartreuse;
+}
+.mid-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.7rem;
+    position: relative;
+    bottom: 6px;
+    right: 60px;
+}
+.mid-nav a span{
+    color: lime;
+    font-weight: 900;
+}
+.mid-nav  span:hover{
+    color: white;
+}
+.right-nav a {
+    color: white;
+    margin-right: 08px;
+    position: relative;
+    right: 50px;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.right-nav a:hover{
+    color: rgb(10, 219, 80);
+}
+.main{
+    padding: 200px 100px;
+}
+section{
+    color: white;
+}
+h3{
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+h3 span{
+    color: rgb(173, 165, 165);
+    font-weight: 900;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: rgb(58, 241, 34);
+}
+h4{
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.viewmore{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    position: relative;
+    top: 5px;
+}
+.viewmore:hover{
+    color: black;
+    background: lime;
+    transform: scale(1.1);
+
+}
+.downloadcv{
+    text-decoration: none;
+    position: relative;
+    right: 870px;
+    top: 08px;
+    color: black;
+    background-color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+.downloadcv:hover{
+    color: black;
+    background: lime;
+    transform: scale(1.08);
+}
+.image img{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
